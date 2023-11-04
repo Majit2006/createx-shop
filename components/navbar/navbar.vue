@@ -40,7 +40,7 @@
             <input
               class="form-control me-2 border-green"
               type="search"
-              placeholder="Search"
+              placeholder="Search for products..."
               aria-label="Search"
             />
           </form>

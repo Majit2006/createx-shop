@@ -13,14 +13,20 @@
   line-height: 150%;
 }
 
-
 .text-dark-green {
   font-size: 21px;
   color: #17696a;
+}
+.text-opacity {
+  opacity: 0.6;
 }
 
 input[type="search"]:focus {
   box-shadow: none;
   outline: none;
   border: 1px solid #d7dadd;
+}
+
+input[type="search"] {
+  width: 340px;
 }
