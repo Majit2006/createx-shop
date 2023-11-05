@@ -14,16 +14,24 @@
           </ul>
           <ul class="list-unstyled px-2">
             <li>
-              <select name="" id="" class="border-0 bg-transparent text-light text-opacity">
-                <option class="border-0 font-Lato">Eng / $</option>
+              <select class="border-0 bg-transparent text-light text-opacity">
+                <option class="border-0 bg-none font-Lato">Eng / $</option>
               </select>
             </li>
           </ul>
         </div>
         <div class="col">
           <i class="bi bi-person text-opacity"></i>
-          <router-link to="/" class="text-decoration-none text-white text-opacity">Log in /</router-link>
-          <router-link to="/" class="text-decoration-none text-white text-opacity">Register</router-link>
+          <router-link
+            to="/"
+            class="text-decoration-none text-white text-opacity"
+            >Log in /</router-link
+          >
+          <router-link
+            to="/"
+            class="text-decoration-none text-white text-opacity"
+            >Register</router-link
+          >
         </div>
       </div>
     </div>

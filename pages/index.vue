@@ -1,9 +1,14 @@
 <template>
-  <div class="container">
-    <h1 class="text-primary">hello</h1>
+  <div>
+      <HeroSlider />
   </div>
 </template>
 
 <script>
-export default {};
+import slider from "~/components/heroSlider/slider.vue";
+export default {
+  components: {
+    slider,
+  },
+};
 </script>

@@ -17,8 +17,27 @@
   font-size: 21px;
   color: #17696a;
 }
+.text-collection {
+  color: #1E212C;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 10rem;
+  margin-right: 17rem;
+}
+.slider-title {
+  color: #1E212C;
+  font-size: 62px;
+  font-family: Lato;
+  font-weight: 900;
+  line-height: 93.6px;
+}
 .text-opacity {
   opacity: 0.6;
+}
+.buttons-slider{
+  margin-right: 8rem;
 }
 
 input[type="search"]:focus {
