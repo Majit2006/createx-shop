@@ -1,7 +1,7 @@
 <template>
   <div>
     <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
+      <div class="carousel-indicators bottom-0">
         <button
           type="button"
           data-bs-target="#hero-carousel"
@@ -24,26 +24,33 @@
         ></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active ">
           <img src="~/assets/images/image.jpg" class="d-block w-100" />
-          <div class="carousel-caption top-0 d-none d-md-block">
+          <div class="carousel-caption top-0 mt-5  d-none d-md-block">
             <span class="text-collection mt-5">New collection 1</span>
-            <h2 class="slider-title">Menswear 2020</h2>
-            <button type="button" class="btn btn-outline-success">
-              Shop sale
-            </button>
-          </div>
-        </div>
-        <div class="carousel-item active">
-          <img src="~/assets/images/image.jpg" class="d-block w-100" />
-          <div class="carousel-caption top-0 d-none d-md-block">
-            <span class="text-collection">New collection 2</span>
             <h2 class="slider-title">Menswear 2020</h2>
             <div class="buttons-slider">
               <button type="button" class="btn btn-outline-success me-3">
                 Shop sale
               </button>
-              <button class="btn btn-success" type="submit">Shop the menswear</button>
+              <button class="btn btn-success" type="submit">
+                Shop the menswear
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="~/assets/images/image.jpg" class="d-block w-100" />
+          <div class="carousel-caption top-0 d-none d-md-block">
+            <span class="text-collection mt-5">New collection 2</span>
+            <h2 class="slider-title">Menswear 2020</h2>
+            <div class="buttons-slider">
+              <button type="button" class="btn btn-outline-success me-3">
+                Shop sale
+              </button>
+              <button class="btn btn-success" type="submit">
+                Shop the menswear
+              </button>
             </div>
           </div>
         </div>
@@ -52,9 +59,14 @@
           <div class="carousel-caption top-0 d-none d-md-block">
             <span class="text-collection"> New collection 3</span>
             <h2 class="slider-title">Menswear 2020</h2>
-            <button type="button" class="btn btn-outline-success">
-              Shop sale
-            </button>
+            <div class="buttons-slider">
+              <button type="button" class="btn btn-outline-success me-3">
+                Shop sale
+              </button>
+              <button class="btn btn-success" type="submit">
+                Shop the menswear
+              </button>
+            </div>
           </div>
         </div>
       </div>

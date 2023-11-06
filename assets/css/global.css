@@ -18,25 +18,29 @@
   color: #17696a;
 }
 .text-collection {
-  color: #1E212C;
+  color: #1e212c;
   font-family: Lato;
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
-  margin-top: 10rem;
   margin-right: 17rem;
 }
+.slide {
+  height: 700px;
+}
+
 .slider-title {
-  color: #1E212C;
+  color: #1e212c;
   font-size: 62px;
   font-family: Lato;
   font-weight: 900;
-  line-height: 93.6px;
+  line-height: 63.6px;
 }
 .text-opacity {
   opacity: 0.6;
 }
-.buttons-slider{
+.buttons-slider {
+  margin-top: 2rem;
   margin-right: 8rem;
 }
 
